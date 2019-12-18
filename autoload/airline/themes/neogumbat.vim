@@ -18,6 +18,10 @@ let s:I3 = ['#87afd7', '#263a45', 110, 237]
 
 let g:airline#themes#neogumbat#palette.insert = airline#themes#generate_color_map(s:I1, s:N2, s:I3)
 let g:airline#themes#neogumbat#palette.insert_modified = g:airline#themes#neogumbat#palette.normal_modified
+let g:airline#themes#neogumbat#palette.insert_paste = {
+    \     'airline_a': ['#303030', '#d7af5f', 236, 179],
+    \     'airline_c': ['#94e42c', '', 47, ''],
+    \ }
 
 let s:R1 = ['#141413', '#e5786d', 232, 173]
 let s:R3 = ['#e5786d', '#263a45', 173, 237]

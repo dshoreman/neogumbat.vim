@@ -16,7 +16,7 @@ let s:R3 = ['#ffffff', '#263a45', 7, 237]
 
 let g:airline#themes#neogumbat#palette.replace = airline#themes#generate_color_map(s:R1, s:N2, s:R3)
 
-let s:V1 = ['#ffffff', '#0000ff', 7, 4]
+let s:V1 = ['#303030', '#d7afd7', 236, 182]
 let s:V3 = ['#ffffff', '#263a45', 7, 237]
 
 let g:airline#themes#neogumbat#palette.visual = airline#themes#generate_color_map(s:V1, s:N2, s:V3)

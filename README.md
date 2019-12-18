@@ -7,6 +7,8 @@ was enabled with `:set notermguicolors`, causing [Vim Airline] text to be diffic
 
 Neogumbat was designed to work with the Oceanic Next colour scheme for [Alacritty]. YMMV with other schemes/terminals.
 
+![Preview showing Airline with the different colours used for each mode in Vim](.github/preview.png)
+
 ## Installation
 
 Neogumbat can be installed with your favourite plugin manager. For [vim-plug], your vimrc might look something like this:

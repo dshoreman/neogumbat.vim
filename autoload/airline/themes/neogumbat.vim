@@ -56,7 +56,7 @@ let s:V3 = [s:g_pink, '', s:t_pink, '']
 let g:airline#themes#neogumbat#palette.visual =
     \ airline#themes#generate_color_map(s:V1, s:N2, s:V3)
 
-let s:IA = ['#658595', '', 245, '']
+let s:IA = ['#658595', s:g_bg_dim, 245, s:t_bg_dim]
 let g:airline#themes#neogumbat#palette.inactive =
     \ airline#themes#generate_color_map(s:IA, s:IA, s:IA)
 

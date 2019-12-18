@@ -20,3 +20,6 @@ let s:V1 = ['#303030', '#d7afd7', 236, 182]
 let s:V3 = ['#ffffff', '#263a45', 7, 237]
 
 let g:airline#themes#neogumbat#palette.visual = airline#themes#generate_color_map(s:V1, s:N2, s:V3)
+
+let s:IA = ['#658595', '#263a45', 245, 237]
+let g:airline#themes#neogumbat#palette.inactive = airline#themes#generate_color_map(s:IA, s:IA, s:IA)

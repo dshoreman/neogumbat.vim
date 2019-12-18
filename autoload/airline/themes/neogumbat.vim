@@ -4,6 +4,10 @@ let s:N1 = ['#303030', '#afd787', 236, 150]
 let s:N2 = ['#aabbc4', '#475C69', 250, 59]
 let s:N3 = ['#afd787', '#263a45', 150, 237]
 
+let g:airline#themes#neogumbat#palette.accents = {
+    \     'red': ['#E5786D', '', 203, '', 'bold'],
+    \ }
+
 let g:airline#themes#neogumbat#palette.normal = airline#themes#generate_color_map(s:N1, s:N2, s:N3)
 let g:airline#themes#neogumbat#palette.normal_modified = {
     \     'airline_c': ['#d7af5f', '', 179, '']
